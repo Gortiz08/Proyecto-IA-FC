@@ -28,13 +28,13 @@ void lectura(const char *nombre, datos_problema *instancia){
 
 	fscanf(archivo, "%d", &((*instancia).num_trips));
 
-	fscanf(archivo, "%d", &((*instancia).dist_max_tour));
+	fscanf(archivo, "%lf", &((*instancia).dist_max_tour));
 
 	//Se da memoria para guardar las distancias maximas de cada trip.
 	(*instancia).dist_max_trip = malloc((*instancia).num_trips*sizeof(int));
 	//Se guarda la distancia maxima de cada trip.
 	for(i = 0; i < (*instancia).num_trips; i++){
-		fscanf(archivo, "%d", &((*instancia).dist_max_trip[i]));
+		fscanf(archivo, "%lf", &((*instancia).dist_max_trip[i]));
 	}
 
 
@@ -52,7 +52,8 @@ void lectura(const char *nombre, datos_problema *instancia){
 		fscanf(archivo, "%lf", &(y[i]));
 		fscanf(archivo, "%f", &((*instancia).puntajes[i]));
 	}
-	//
+
+	// Calculando distancia//
 	for(i = 0; i < ph; i++){
 		for(j= 0; j < ph; j++){
 			dist = sqrt(pow((x[i] - x[j]), 2) + pow((y[i] - y[j]), 2));

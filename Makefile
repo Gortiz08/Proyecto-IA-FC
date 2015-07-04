@@ -1,7 +1,7 @@
 all: main.o
-	gcc lectura.o main.o forward.o -o proyecto -lm
+	gcc lectura.o main.o forward.o restricciones.o -o proyecto -lm
 
-main.o: lectura.o forward.o
+main.o: lectura.o forward.o restricciones.o
 	gcc -c -g main.c
 
 lectura.o: lectura.c definiciones.h funciones.h
@@ -9,6 +9,9 @@ lectura.o: lectura.c definiciones.h funciones.h
 
 forward.o: forward.c definiciones.h funciones.h
 	gcc -c -g forward.c
+
+restricciones.o: restricciones.c definiciones.h funciones.h
+	gcc -c -g restricciones.c
 
 clean:
 	rm *.o

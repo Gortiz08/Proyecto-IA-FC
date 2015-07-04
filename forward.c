@@ -5,7 +5,7 @@
 #include "funciones.h"
 
 
-int trans3D_to_2D(i,j,k,l,m){
+int trans3D_to_1D(i,j,k,l,m){
 	return i+l*j+k*l*m;
 }
 
@@ -19,7 +19,7 @@ void llenar_dominio(variable **variables, datos_problema instancia){
 	for(i = 0; i< ph; i++){
 		for(j = 0; j < ph; j++){
 			for(k = 0; k < (instancia.num_trips); k++){
-			index = trans3D_to_2D(i,j,k,ph,ph); 
+			index = trans3D_to_1D(i,j,k,ph,ph); 
 			(*variables)[index].origen = i;
 			(*variables)[index].llegada = j;
 			(*variables)[index].trip = k;
@@ -37,13 +37,24 @@ void fc(int i, variable **variables, datos_problema instancia){
 	int ph = ((instancia).puntos+(instancia).hoteles);
 	int var = ph*ph*(instancia).num_trips;
 
+	int h;
+
+
 	for(l = 0; l<2; l++){
-		printf("%d %d \n", i, l);
+		
+		//printf("%d %d \n", i, l);
+		
 		(*variables)[i].valor = l;
 		if((*variables)[i].dominio[l] == NO_PROBLEM){
 			if(i == var-1){
 				//guardar solucion
-				printf("encontro una solucion\n");
+				for(h = 0; h < var; h++){
+					if((*variables)[h].valor == 1){
+					printf(" I:%d -T:%d> F:%d", (*variables)[h].origen, (*variables)[h].trip , (*variables)[h].llegada);
+					}
+				}
+				printf("\n");
+				//exit(0);
 			}
 			else{
 				if(Forward_Checking(i, var, variables, instancia)){
@@ -65,7 +76,7 @@ int Forward_Checking(int i, int var, variable **variables, datos_problema instan
 		for(k = 0; k < 2; k++){
 			if((*variables)[j].dominio[k] == NO_PROBLEM){
 				//revisar restricciones//
-				if(True){
+				if(revisar_restricciones(i, j, k, variables, instancia)){
 					flag = False;
 				}
 				else{

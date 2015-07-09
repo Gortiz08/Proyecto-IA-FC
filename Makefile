@@ -24,3 +24,12 @@ test100: proyecto
 
 test11: proyecto
 	./proyecto Casos\ prueba/11-31-1-2.ophs
+
+test04: proyecto
+	./proyecto Casos\ prueba/4-20-1-2.ophs
+
+test05: proyecto
+	time ./proyecto Casos\ prueba/5-15-1-2.ophs
+
+test03: proyecto
+	./proyecto Casos\ prueba/3-7-0-1.ophs

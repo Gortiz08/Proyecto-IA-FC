@@ -1,0 +1,1568 @@
+./proyecto Casos\ prueba/3-7-0-1.ophs
+origen: 0, destino: 0, Trip: 0  Valor: 0 
+Revisando:  x1: 1, y1: 0, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 1, destino: 0, Trip: 0  Valor: 0 
+Revisando:  x1: 2, y1: 0, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 2, destino: 0, Trip: 0  Valor: 0 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 0, destino: 1, Trip: 0  Valor: 0 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+R1, x1: 0, y1: 2, trip: 0 ValorProblem: 0
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 3 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 1, destino: 1, Trip: 0  Valor: 0 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+R4, x1: 2, y1: 1, trip: 0 ValorProblem: 0
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 4 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: 3 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 3 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 2, destino: 1, Trip: 0  Valor: 0 
+origen: 2, destino: 1, Trip: 0  Valor: 1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: 3 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 3 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+R5, x1: 2, y1: 2, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: 5 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+R5, x1: 2, y1: 0, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+R5, x1: 2, y1: 1, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+R5, x1: 2, y1: 2, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 0, destino: 2, Trip: 0  Valor: 0 
+origen: 0, destino: 2, Trip: 0  Valor: 1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+0 0 0
+0 1 0
+0 2 1
+1 0 1
+1 1 1
+1 2 1
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+R3, x1: 1, y1: 2, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: 6 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: 5 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 1, destino: 2, Trip: 0  Valor: 0 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: 5 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 2, destino: 2, Trip: 0  Valor: 0 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 0, destino: 0, Trip: 1  Valor: 0 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 1, destino: 0, Trip: 1  Valor: 0 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 2, destino: 0, Trip: 1  Valor: 0 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 0, destino: 1, Trip: 1  Valor: 0 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 1, destino: 1, Trip: 1  Valor: 0 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+R2, x1: 2, y1: 1, trip: 1 ValorProblem: 0
+R4, x1: 2, y1: 1, trip: 1 ValorProblem: 0
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 13 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+se deja sin dominio a x1: 2, y1: 1, trip: 1 
+origen: 1, destino: 1, Trip: 1  Valor: 1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+R3, x1: 0, y1: 2, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: 13 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+R3, x1: 1, y1: 2, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 13 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 2, destino: 1, Trip: 1  Valor: 0 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: 13 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: 13 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: 13 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 13 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 0, destino: 2, Trip: 1  Valor: 0 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+0 0 0
+0 1 0
+0 2 0
+1 0 0
+1 1 1
+1 2 1
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: 13 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 13 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 1, destino: 2, Trip: 1  Valor: 0 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 2, destino: 2, Trip: 1  Valor: 0 
+ I:0   >>T:0>>   F:2 I:2   >>T:0>>   F:1 I:1   >>T:1>>   F:1
+origen: 2, destino: 2, Trip: 1  Valor: 1 
+origen: 1, destino: 2, Trip: 1  Valor: 1 
+origen: 0, destino: 2, Trip: 1  Valor: 1 
+origen: 2, destino: 1, Trip: 1  Valor: 1 
+origen: 0, destino: 1, Trip: 1  Valor: 1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+R2, x1: 1, y1: 1, trip: 1 ValorProblem: 1
+R3, x1: 1, y1: 1, trip: 1 ValorProblem: 1
+R4, x1: 1, y1: 1, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: 12 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+R3, x1: 0, y1: 2, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: 12 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+R3, x1: 1, y1: 2, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 12 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 1, destino: 1, Trip: 1  Valor: 0 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+R2, x1: 2, y1: 1, trip: 1 ValorProblem: 0
+R4, x1: 2, y1: 1, trip: 1 ValorProblem: 0
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 13 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+se deja sin dominio a x1: 2, y1: 1, trip: 1 
+origen: 1, destino: 1, Trip: 1  Valor: 1 
+origen: 2, destino: 0, Trip: 1  Valor: 1 
+origen: 1, destino: 0, Trip: 1  Valor: 1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+R3, x1: 0, y1: 1, trip: 1 ValorProblem: 1
+R4, x1: 0, y1: 1, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: 10 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+R3, x1: 1, y1: 1, trip: 1 ValorProblem: 1
+R4, x1: 1, y1: 1, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: 10 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+R3, x1: 0, y1: 2, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: 10 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+R3, x1: 1, y1: 2, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 10 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 2, destino: 0, Trip: 1  Valor: 0 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: 10 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: 10 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: 10 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: 10 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: 10 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: 10 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: 10 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 10 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 0, destino: 1, Trip: 1  Valor: 0 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: 10 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: 10 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: 10 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: 10 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: 10 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 10 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 1, destino: 1, Trip: 1  Valor: 0 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+R4, x1: 2, y1: 1, trip: 1 ValorProblem: 0
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 13 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+se deja sin dominio a x1: 2, y1: 1, trip: 1 
+origen: 1, destino: 1, Trip: 1  Valor: 1 
+origen: 0, destino: 1, Trip: 1  Valor: 1 
+origen: 2, destino: 0, Trip: 1  Valor: 1 
+origen: 0, destino: 0, Trip: 1  Valor: 1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+R3, x1: 1, y1: 0, trip: 1 ValorProblem: 1
+R4, x1: 1, y1: 0, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: 9 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+R3, x1: 0, y1: 1, trip: 1 ValorProblem: 1
+R4, x1: 0, y1: 1, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: 9 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+R3, x1: 1, y1: 1, trip: 1 ValorProblem: 1
+R4, x1: 1, y1: 1, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: 9 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+R3, x1: 0, y1: 2, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: 9 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+R3, x1: 1, y1: 2, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 9 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 1, destino: 0, Trip: 1  Valor: 0 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: 9 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: 9 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: 9 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 9 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 2, destino: 0, Trip: 1  Valor: 0 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: 9 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: 9 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: 9 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 9 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 0, destino: 1, Trip: 1  Valor: 0 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: 9 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: 9 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: 9 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: 9 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 5 
+origen: 1, destino: 1, Trip: 1  Valor: 0 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+R2, x1: 2, y1: 1, trip: 1 ValorProblem: 0
+R4, x1: 2, y1: 1, trip: 1 ValorProblem: 0
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 13 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 5 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 5 
+se deja sin dominio a x1: 2, y1: 1, trip: 1 
+origen: 1, destino: 1, Trip: 1  Valor: 1 
+origen: 0, destino: 1, Trip: 1  Valor: 1 
+origen: 2, destino: 0, Trip: 1  Valor: 1 
+origen: 1, destino: 0, Trip: 1  Valor: 1 
+origen: 2, destino: 2, Trip: 0  Valor: 1 
+origen: 1, destino: 2, Trip: 0  Valor: 1 
+origen: 1, destino: 1, Trip: 0  Valor: 1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+R4, x1: 2, y1: 1, trip: 0 ValorProblem: 0
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 4 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: -1 
+R4, x1: 2, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 4 
+se deja sin dominio a x1: 2, y1: 1, trip: 0 
+origen: 0, destino: 1, Trip: 0  Valor: 1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: -1 
+R3, x1: 1, y1: 1, trip: 0 ValorProblem: 1
+R4, x1: 1, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: 3 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: -1 
+R4, x1: 2, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 3 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+R1, x1: 0, y1: 2, trip: 0 ValorProblem: 1
+R3, x1: 0, y1: 2, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 3 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+R3, x1: 1, y1: 2, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: 3 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 1, destino: 1, Trip: 0  Valor: 0 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+R4, x1: 2, y1: 1, trip: 0 ValorProblem: 0
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 4 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: 3 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 3 
+se deja sin dominio a x1: 2, y1: 1, trip: 0 
+origen: 1, destino: 1, Trip: 0  Valor: 1 
+origen: 2, destino: 0, Trip: 0  Valor: 1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 1 dominio: -1 
+R4, x1: 0, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: 2 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: -1 
+R4, x1: 1, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: 2 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: -1 
+R4, x1: 2, y1: 1, trip: 0 ValorProblem: 1
+R5, x1: 2, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 2 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+R5, x1: 2, y1: 2, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: 2 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+R5, x1: 2, y1: 0, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 2 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+R5, x1: 2, y1: 1, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 2 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+R5, x1: 2, y1: 2, trip: 1 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 2 
+origen: 0, destino: 1, Trip: 0  Valor: 0 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: 2 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: 2 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: 2 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 2 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+R1, x1: 0, y1: 2, trip: 0 ValorProblem: 0
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 3 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: 2 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: 2 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: 2 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: 2 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: 2 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: 2 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: 2 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: 2 
+origen: 1, destino: 1, Trip: 0  Valor: 0 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+R4, x1: 2, y1: 1, trip: 0 ValorProblem: 0
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 4 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: 2 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 2 
+se deja sin dominio a x1: 2, y1: 1, trip: 0 
+origen: 1, destino: 1, Trip: 0  Valor: 1 
+origen: 0, destino: 1, Trip: 0  Valor: 1 
+origen: 1, destino: 0, Trip: 0  Valor: 1 
+Revisando:  x1: 2, y1: 0, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 0, K = 1 dominio: -1 
+R4, x1: 2, y1: 0, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 0, trip: 0, dominio: 1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 1 dominio: -1 
+R3, x1: 0, y1: 1, trip: 0 ValorProblem: 1
+R4, x1: 0, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: 1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: -1 
+R3, x1: 1, y1: 1, trip: 0 ValorProblem: 1
+R4, x1: 1, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: 1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: -1 
+R4, x1: 2, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+R3, x1: 0, y1: 2, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+R3, x1: 1, y1: 2, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: 1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 2, destino: 0, Trip: 0  Valor: 0 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 1 dominio: 1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: 1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: 1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: 1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: 1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: 1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: 1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: 1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 0, destino: 1, Trip: 0  Valor: 0 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: 1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: 1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: 1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+R1, x1: 0, y1: 2, trip: 0 ValorProblem: 0
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 3 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: 1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 1 
+se deja sin dominio a x1: 0, y1: 2, trip: 0 
+origen: 0, destino: 1, Trip: 0  Valor: 1 
+origen: 2, destino: 0, Trip: 0  Valor: 1 
+origen: 0, destino: 0, Trip: 0  Valor: 1 
+Revisando:  x1: 1, y1: 0, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 0, K = 1 dominio: -1 
+R3, x1: 1, y1: 0, trip: 0 ValorProblem: 1
+R4, x1: 1, y1: 0, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 0, trip: 0, dominio: 0 
+Revisando:  x1: 2, y1: 0, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 0, K = 1 dominio: -1 
+R4, x1: 2, y1: 0, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 0, trip: 0, dominio: 0 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 1 dominio: -1 
+R1, x1: 0, y1: 1, trip: 0 ValorProblem: 1
+R3, x1: 0, y1: 1, trip: 0 ValorProblem: 1
+R4, x1: 0, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: -1 
+R3, x1: 1, y1: 1, trip: 0 ValorProblem: 1
+R4, x1: 1, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: -1 
+R4, x1: 2, y1: 1, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: -1 
+R1, x1: 0, y1: 2, trip: 0 ValorProblem: 1
+R3, x1: 0, y1: 2, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 0 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: -1 
+R3, x1: 1, y1: 2, trip: 0 ValorProblem: 1
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: 0 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 1, destino: 0, Trip: 0  Valor: 0 
+Revisando:  x1: 2, y1: 0, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 2, y1: 0, trip: 0, dominio: 0 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 0 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: 0 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 2, destino: 0, Trip: 0  Valor: 0 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 0, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 0 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: 0 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 0, destino: 1, Trip: 0  Valor: 0 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 1, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 0 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 0, y1: 2, trip: 0, dominio: 0 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 1, y1: 2, trip: 0, dominio: 0 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 0, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 0, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 0, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 0, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 1, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 1, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 0, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 0, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 1, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 1, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 0 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+Revisando:  x1: 2, y1: 2, trip: 1, K = 1 dominio: -1 
+(despues)Revisando:  x1: 2, y1: 2, trip: 1, dominio: -1 
+origen: 1, destino: 1, Trip: 0  Valor: 0 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 0 dominio: -1 
+R4, x1: 2, y1: 1, trip: 0 ValorProblem: 0
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 4 
+Revisando:  x1: 2, y1: 1, trip: 0, K = 1 dominio: 0 
+(despues)Revisando:  x1: 2, y1: 1, trip: 0, dominio: 0 
+se deja sin dominio a x1: 2, y1: 1, trip: 0 
+origen: 1, destino: 1, Trip: 0  Valor: 1 
+origen: 0, destino: 1, Trip: 0  Valor: 1 
+origen: 2, destino: 0, Trip: 0  Valor: 1 
+origen: 1, destino: 0, Trip: 0  Valor: 1 
+0.000000 
+0.000000 
+8.000000 

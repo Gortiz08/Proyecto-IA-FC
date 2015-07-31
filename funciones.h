@@ -47,6 +47,12 @@ int hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema
 int hotel_final_trip(int i, int j, int k, variable **variables, datos_problema instancia);
 
 //
+int hotel_final_hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema instancia);
+
+//
+int conectividad(int i, int j, int k, variable **variables, datos_problema instancia);
+
+//
 int unicidad(int i, int j, int k, variable **variables, datos_problema instancia);
 
 //

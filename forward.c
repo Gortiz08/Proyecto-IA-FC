@@ -44,7 +44,7 @@ void fc(int i, variable **variables, datos_problema instancia){
 
 	for(l = 0; l<2; l++){
 		(*variables)[i].valor = l;
-		printf("origen: %d, destino: %d, Trip: %d  Valor: %d dominio: %d \n", (*variables)[i].origen, (*variables)[i].llegada, (*variables)[i].trip, (*variables)[i].valor, (*variables)[i].dominio[l]);
+		//printf("origen: %d, destino: %d, Trip: %d  Valor: %d dominio: %d \n", (*variables)[i].origen, (*variables)[i].llegada, (*variables)[i].trip, (*variables)[i].valor, (*variables)[i].dominio[l]);
 		if((*variables)[i].dominio[l] == NO_PROBLEM){
 			if(i == var-1){
 				//guardar solucion
@@ -92,7 +92,7 @@ int Forward_Checking(int i, int var, variable **variables, datos_problema instan
 			//printf("(despues)Revisando:  x1: %d, y1: %d, trip: %d, dominio: %d \n", (*variables)[j].origen, (*variables)[j].llegada, (*variables)[j].trip, (*variables)[j].dominio[k]);
 		}
 		if(flag){
-			printf("se deja sin dominio a x1: %d, y1: %d, trip: %d \n", (*variables)[j].origen, (*variables)[j].llegada, (*variables)[j].trip);
+			//printf("se deja sin dominio a x1: %d, y1: %d, trip: %d \n", (*variables)[j].origen, (*variables)[j].llegada, (*variables)[j].trip);
 			return False;
 		}
 	}

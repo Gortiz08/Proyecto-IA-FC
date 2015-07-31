@@ -241,6 +241,16 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema insta
 
 	trip1 = dim_z(i, ph);
 	trip2 = dim_z(j, ph);
+
+	if(ph-1 == x1 && y1 == x2 && trip1 == trip2 && y1 != 0){
+		sum = 0;
+		for(q = 0; q < ph; q++){
+			sum += (*variables)[trans3D_to_1D(q, y1, trip1, ph, ph)].valor;
+		}
+		if(sum == 0 && k == 1){	
+			return False;
+		}
+	}
 	if((y1 > instancia.hoteles+1) && (y1 == y2) && (trip1 == trip2)){
 		for(q = 0; q < ph; q++){
 			sum += (*variables)[trans3D_to_1D(y1, q, trip1, ph, ph)].valor;
@@ -264,9 +274,6 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema insta
 				return False;
 			}
 		}
-	}
-	if(y1 > x1 && y1 > instancia.hoteles+1 && (y1 == y2) && (trip1 == trip2)){
-		
 	}
 	return True;
 }

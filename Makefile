@@ -29,7 +29,7 @@ test04: proyecto
 	./proyecto Casos\ prueba/4-20-1-2.ophs
 
 test05: proyecto
-	time ./proyecto Casos\ prueba/5-15-1-2.ophs
+	./proyecto Casos\ prueba/5-15-1-2.ophs
 
 test03: proyecto
 	./proyecto Casos\ prueba/3-7-0-1.ophs

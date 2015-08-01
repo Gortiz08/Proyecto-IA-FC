@@ -14,9 +14,9 @@ int main(int argc, char **argv){
 	variable *variable;
 	variable = malloc(sizeof(variable)*(ph*ph)*instancia.num_trips);
 
-	llenar_dominio(&variable, instancia);
+	llenar_dominio(&variable, &instancia);
 
-	fc(0, &variable, instancia);
+	fc(0, &variable, &instancia);
 
 
 

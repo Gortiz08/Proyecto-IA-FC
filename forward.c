@@ -10,15 +10,15 @@ int trans3D_to_1D(i,j,k,l,m){
 }
 
 //se llenan las variables y el dominio con los datos//
-void llenar_dominio(variable **variables, datos_problema instancia){
-	int ph = ((instancia).puntos+(instancia).hoteles);
+void llenar_dominio(variable **variables, datos_problema* instancia){
+	int ph = ((*instancia).puntos+(*instancia).hoteles);
 	int i, j, k;
 	int index;
 
 
 	for(i = 0; i< ph; i++){
 		for(j = 0; j < ph; j++){
-			for(k = 0; k < (instancia.num_trips); k++){
+			for(k = 0; k < ((*instancia).num_trips); k++){
 			index = trans3D_to_1D(i,j,k,ph,ph); 
 			(*variables)[index].origen  = i;
 			(*variables)[index].llegada = j;
@@ -32,10 +32,10 @@ void llenar_dominio(variable **variables, datos_problema instancia){
 }
 
 
-void fc(int i, variable **variables, datos_problema instancia){
+void fc(int i, variable **variables, datos_problema* instancia){
 	int l;
-	int ph = ((instancia).puntos+(instancia).hoteles);
-	int var = ph*ph*(instancia).num_trips;
+	int ph = ((*instancia).puntos+(*instancia).hoteles);
+	int var = ph*ph*(*instancia).num_trips;
 
 	int h,j,k, index;
 
@@ -48,7 +48,7 @@ void fc(int i, variable **variables, datos_problema instancia){
 		if((*variables)[i].dominio[l] == NO_PROBLEM){
 			if(i == var-1){
 				//guardar solucion
-				for(k = 0; k < (instancia).num_trips; k++){
+				for(k = 0; k < (*instancia).num_trips; k++){
 					for(h = 0; h < ph; h++){
 						for(j = 0; j < ph ; j++){
 							index = trans3D_to_1D(h,j,k,ph,ph);
@@ -71,7 +71,7 @@ void fc(int i, variable **variables, datos_problema instancia){
 	}
 }
 
-int Forward_Checking(int i, int var, variable **variables, datos_problema instancia){
+int Forward_Checking(int i, int var, variable **variables, datos_problema* instancia){
 	int flag;
 	int j;
 	int k;

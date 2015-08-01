@@ -23,7 +23,7 @@ test100: proyecto
 	./proyecto Casos\ prueba/100-240-15-10.ophs
 
 test11: proyecto
-	./proyecto Casos\ prueba/11-31-1-2.ophs
+	time ./proyecto Casos\ prueba/11-31-1-2.ophs
 
 test04: proyecto
 	./proyecto Casos\ prueba/4-20-1-2.ophs

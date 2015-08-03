@@ -41,6 +41,13 @@ void fc(int i, variable **variables, datos_problema* instancia){
 
 	int x1, y1, z1;
 
+	int desde = 0, trip = 0, punt = 0, lugar = 0;
+	double dist_trip[(*instancia).num_trips];
+
+	for(k = 0; k < (*instancia).num_trips; k++){
+		dist_trip[k] = 0;
+	}
+
 
 	for(l = 0; l<2; l++){
 		(*variables)[i].valor = l;
@@ -48,18 +55,43 @@ void fc(int i, variable **variables, datos_problema* instancia){
 		if((*variables)[i].dominio[l] == NO_PROBLEM){
 			if(i == var-1){
 				//guardar solucion
-				for(k = 0; k < (*instancia).num_trips; k++){
-					for(h = 0; h < ph; h++){
-						for(j = 0; j < ph ; j++){
-							index = trans3D_to_1D(h,j,k,ph,ph);
-							if((*variables)[index].valor == 1){
-								printf(" I:%d   >>T:%d>>   F:%d", (*variables)[index].origen, (*variables)[index].trip , (*variables)[index].llegada);
+				printf("H0");
+				while(desde != 1 && trip < (*instancia).num_trips){
+					for(k = 0; k < ph; k++){
+						index = trans3D_to_1D(desde,k,trip,ph,ph);
+						if((*variables)[index].valor == 1){
+							lugar = obtener_indice(desde, k, ph);
+							dist_trip[trip] += (*instancia).matriz_dist[lugar];
+							punt += (*instancia).puntajes[k];
+							if(k < (*instancia).hoteles+2){
+								trip += 1;
+								printf("->H%d", k);
+							}else{
+								printf("->%d", k - ((*instancia).hoteles+2));
 							}
+							desde = k;
 						}
 					}
 				}
+				printf(" | %d ", punt);
+				for(k = 0; k < (*instancia).num_trips; k++){
+					printf("| Trip %d: %f ", k +1, dist_trip[k]);
+					dist_trip[k] = 0;
+				}
 				printf("\n");
-				//exit(0);
+
+				// for(k = 0; k < (*instancia).num_trips; k++){
+				// 	for(h = 0; h < ph; h++){
+				// 		for(j = 0; j < ph ; j++){
+				// 			index = trans3D_to_1D(h,j,k,ph,ph);
+				// 			if((*variables)[index].valor == 1){
+				// 				printf(" I:%d   >>T:%d>>   F:%d", (*variables)[index].origen, (*variables)[index].trip , (*variables)[index].llegada);
+				// 			}
+				// 		}
+				// 	}
+				// }
+				// printf("\n");
+
 			}
 			else{	
 				if(Forward_Checking(i, var, variables, instancia)){

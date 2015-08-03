@@ -17,7 +17,7 @@ clean:
 	rm *.o
 
 test: proyecto 
-	./proyecto Casos\ prueba/10-24-1-2.ophs
+	time ./proyecto Casos\ prueba/10-24-1-2.ophs
 
 test100: proyecto
 	./proyecto Casos\ prueba/100-240-15-10.ophs

@@ -308,10 +308,10 @@ int unicidad(int i, int j, int k, variable **variables, datos_problema* instanci
 int tiempo_max(int i, int j, int k, variable **variables, datos_problema* instancia){
 	int x1, y1, trip1;
 	int x2, y2, trip2;
-	int trips,xs,ys;
+	int trips, xs, ys;
 	int w, index;
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
-	int dist_rec = 0;
+	double dist_rec = 0;
 
 
 	x1 = dim_x(i, ph);
@@ -338,10 +338,10 @@ int tiempo_max(int i, int j, int k, variable **variables, datos_problema* instan
 		w = obtener_indice(x2, y2, ph);
 		dist_rec += (*instancia).matriz_dist[w];
 		if(dist_rec > (*instancia).dist_max_trip[trip1]){
-			//printf("R6, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip2, (*variables)[i].valor);
 			return False;
 		}
 	}
+	//printf("R6, x1: %d, y1: %d, trip: %d ValorProblem: %d distancia rec: %d \n", x2, y2, trip2, (*variables)[i].valor, dist_rec);
 	return True;
 }
 

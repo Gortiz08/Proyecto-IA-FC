@@ -17,21 +17,6 @@ int main(int argc, char **argv){
 	llenar_dominio(&variable, &instancia);
 
 	fc(0, &variable, &instancia);
-
-
-
-	for(i=0; i < ph; i++){
-		printf("%f \n", instancia.puntajes[i]);
-	}
-
-	/*for(i=0; i < ph*ph; i++){
-		if(i % ph == 0)printf("\n");
-		printf("%.2f ", instancia.matriz_dist[i]);
-		
-	}*/
-
-
-
-
+	
 	return 0;
 }

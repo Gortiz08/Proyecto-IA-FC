@@ -44,7 +44,7 @@ int hotel_ini(int i, int j, int k, variable **variables, datos_problema* instanc
 
 	if((x1 == 0 && x1 == x2) && (trip1 == 0 && trip2 == 0)){
 		if((*variables)[i].valor == 1 && k == 1){
-			//printf("R1, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
+			printf("R1, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 			return False;
 		}
 		//Revisa si hay alguna variable instanciada con 1//
@@ -56,7 +56,7 @@ int hotel_ini(int i, int j, int k, variable **variables, datos_problema* instanc
 				return True;
 			}
 			else{
-				//printf("R1, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
+				printf("R1, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 				return False;
 			}
 		}
@@ -82,7 +82,7 @@ int hotel_final(int i, int j, int k, variable **variables, datos_problema* insta
 
 	if(((*instancia).num_trips-1 == trip1) && (trip1 == trip2) && (y1 == y2 && y1 == 1)){
 		if((*variables)[i].valor == 1 && k == 1){
-			//printf("R2, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
+			printf("R2, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 			return False;
 		}
 		if((ph - 2) == x1 && k == 0){
@@ -93,7 +93,7 @@ int hotel_final(int i, int j, int k, variable **variables, datos_problema* insta
 				return True;
 			}
 			else{
-				//printf("R2, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
+				printf("R2, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 				return False;
 			}
 		}
@@ -119,7 +119,7 @@ int hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema
 
 	if((x1 < (*instancia).hoteles+2 && x2 < (*instancia).hoteles+2) && (trip1 == trip2)){
 		if((*variables)[trans3D_to_1D(x1, y1, trip1, ph, ph)].valor == 1 && k == 1){
-			//printf("R3, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+			printf("R3, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
 			return False;
 		}
 		if((*instancia).hoteles == x1 && y1 == (ph-1) && k == 0){
@@ -132,7 +132,7 @@ int hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema
 				return True;
 			}
 			else{
-				//printf("R3, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+				printf("R3, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
 				return False;
 			}
 		}
@@ -158,7 +158,7 @@ int hotel_final_trip(int i, int j, int k, variable **variables, datos_problema* 
 
 	if((y1 < (*instancia).hoteles+2 && y2 < (*instancia).hoteles+2) && (trip1 == trip2)){
 		if((*variables)[i].valor == 1 && k == 1){
-			//printf("R4, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+			printf("R4, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
 			return False;
 		}
 		if((*instancia).hoteles+1 == y1 && x1 == (ph-2) && k == 0){
@@ -172,7 +172,7 @@ int hotel_final_trip(int i, int j, int k, variable **variables, datos_problema* 
 				return True;
 			}
 			else{
-				//printf("R4, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+				printf("R4, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
 				return False;
 			}
 		}
@@ -203,6 +203,7 @@ int hotel_final_hotel_inicial_trip(int i, int j, int k, variable **variables, da
 		}
 		if(sum == 1){
 			if((*variables)[i].valor == 1 && k == 1){
+				printf("R5, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 				return False;
 			}
 			if(ph-2 == y1){
@@ -211,12 +212,14 @@ int hotel_final_hotel_inicial_trip(int i, int j, int k, variable **variables, da
 					sum += (*variables)[trans3D_to_1D(x1, q, trip1, ph, ph)].valor;
 				}
 				if(sum == 0 && k == 0){
+					printf("R5, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 					return False;
 				}
 			}
 		}
 		else{
 			if(k == 1){
+				printf("R5, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 				return False;
 			}
 		}
@@ -242,12 +245,13 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 	trip1 = dim_z(i, ph);
 	trip2 = dim_z(j, ph);
 
-	if(ph-1 == x1 && y1 == x2 && trip1 == trip2 && y1 != 0){
+	if(ph-1 == x1 && y1 == x2 && trip1 == trip2 && y1 > (*instancia).hoteles+1){
 		sum = 0;
 		for(q = 0; q < ph; q++){
 			sum += (*variables)[trans3D_to_1D(q, y1, trip1, ph, ph)].valor;
 		}
 		if(sum == 0 && k == 1){	
+			printf("R6 sum = 0 y k = 1, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 			return False;
 		}
 	}
@@ -257,6 +261,7 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 		}
 		if(sum == 1){
 			if((*variables)[i].valor == 1 && k == 1){
+				printf("R6 valor = 1 y K = 1, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 				return False;
 			}
 			if(ph-2 == x1){
@@ -265,12 +270,14 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 					sum += (*variables)[trans3D_to_1D(q, y1, trip1, ph, ph)].valor;
 				}
 				if(sum == 0 && k == 0){
+					printf("R6 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 					return False;
 				}
 			}
 		}
 		else{
 			if(k == 1){
+				printf("R6 K = 1, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 				return False;
 			}
 		}
@@ -295,9 +302,9 @@ int unicidad(int i, int j, int k, variable **variables, datos_problema* instanci
 	trip1 = dim_z(i, ph);
 	trip2 = dim_z(j, ph);
 
-	if(x1 > (*instancia).hoteles+1 && x2 == x1){
+	if(x2 == x1 && x1 > (*instancia).hoteles+1){
 		if((*variables)[i].valor == 1 && k == 1){
-			//printf("R5, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip2, (*variables)[i].valor);
+			printf("R7, x1: %d, y1: %d, trip: %d, x2: %d, y2: %d, trip: %d, ValorProblem: %d\n", x1, y1, trip1, x2, y2, trip2, (*variables)[i].valor);
 			return False;
 		}
 	}
@@ -338,10 +345,10 @@ int tiempo_max(int i, int j, int k, variable **variables, datos_problema* instan
 		w = obtener_indice(x2, y2, ph);
 		dist_rec += (*instancia).matriz_dist[w];
 		if(dist_rec > (*instancia).dist_max_trip[trip1]){
+			printf("R8, x1: %d, y1: %d, trip: %d ValorProblem: %d distancia rec: %f \n", x2, y2, trip2, (*variables)[i].valor, dist_rec);
 			return False;
 		}
 	}
-	//printf("R6, x1: %d, y1: %d, trip: %d ValorProblem: %d distancia rec: %d \n", x2, y2, trip2, (*variables)[i].valor, dist_rec);
 	return True;
 }
 

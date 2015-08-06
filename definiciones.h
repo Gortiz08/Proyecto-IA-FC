@@ -2,7 +2,7 @@
 #define DEF_HEADER
 
 #define NO_PROBLEM -1
-#define PROBLEM 1
+#define PROBLEM -2
 #define True 1
 #define False 0
 

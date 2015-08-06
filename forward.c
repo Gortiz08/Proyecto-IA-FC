@@ -19,13 +19,18 @@ void llenar_dominio(variable **variables, datos_problema* instancia){
 	for(i = 0; i< ph; i++){
 		for(j = 0; j < ph; j++){
 			for(k = 0; k < ((*instancia).num_trips); k++){
-			index = trans3D_to_1D(i,j,k,ph,ph); 
-			(*variables)[index].origen  = i;
-			(*variables)[index].llegada = j;
-			(*variables)[index].trip = k;
-			(*variables)[index].valor = 0;
-			(*variables)[index].dominio[0] = NO_PROBLEM;
-			(*variables)[index].dominio[1] = NO_PROBLEM;
+				index = trans3D_to_1D(i,j,k,ph,ph); 
+				(*variables)[index].origen  = i;
+				(*variables)[index].llegada = j;
+				(*variables)[index].trip = k;
+				(*variables)[index].valor = 0;
+				(*variables)[index].dominio[0] = NO_PROBLEM;
+				if(i > (*instancia).hoteles+1 && j > (*instancia).hoteles+1 && i == j){
+					(*variables)[index].dominio[1] = PROBLEM;				
+				}
+				else{
+					(*variables)[index].dominio[1] = NO_PROBLEM;
+				}
 			}
 		}
 	}
@@ -51,7 +56,7 @@ void fc(int i, variable **variables, datos_problema* instancia){
 
 	for(l = 0; l<2; l++){
 		(*variables)[i].valor = l;
-		printf("origen: %d, destino: %d, Trip: %d  Valor: %d dominio: %d \n", (*variables)[i].origen, (*variables)[i].llegada, (*variables)[i].trip, (*variables)[i].valor, (*variables)[i].dominio[l]);
+		//printf("origen: %d, destino: %d, Trip: %d  Valor: %d dominio: %d \n", (*variables)[i].origen, (*variables)[i].llegada, (*variables)[i].trip, (*variables)[i].valor, (*variables)[i].dominio[l]);
 		if((*variables)[i].dominio[l] == NO_PROBLEM){
 			if(i == var-1){
 				//guardar solucion
@@ -111,7 +116,7 @@ int Forward_Checking(int i, int var, variable **variables, datos_problema* insta
 	for(j = i+1; j < var; j++){
 		flag = True;
 		for(k = 0; k < 2; k++){
-			printf("Revisando:  x1: %d, y1: %d, trip: %d, K = %d dominio: %d \n", (*variables)[j].origen, (*variables)[j].llegada, (*variables)[j].trip, k, (*variables)[j].dominio[k]);
+			//printf("Revisando:  x1: %d, y1: %d, trip: %d, K = %d dominio: %d \n", (*variables)[j].origen, (*variables)[j].llegada, (*variables)[j].trip, k, (*variables)[j].dominio[k]);
 			if((*variables)[j].dominio[k] == NO_PROBLEM){
 				//revisar restricciones//
 				if(revisar_restricciones(i, j, k, variables, instancia)){
@@ -121,10 +126,10 @@ int Forward_Checking(int i, int var, variable **variables, datos_problema* insta
 					(*variables)[j].dominio[k] = i;
 				}
 			}
-			printf("(despues)Revisando:  x1: %d, y1: %d, trip: %d, dominio: %d \n", (*variables)[j].origen, (*variables)[j].llegada, (*variables)[j].trip, (*variables)[j].dominio[k]);
+			//printf("(despues)Revisando:  x1: %d, y1: %d, trip: %d, dominio: %d \n", (*variables)[j].origen, (*variables)[j].llegada, (*variables)[j].trip, (*variables)[j].dominio[k]);
 		}
 		if(flag){
-			printf("se deja sin dominio a x1: %d, y1: %d, trip: %d \n", (*variables)[j].origen, (*variables)[j].llegada, (*variables)[j].trip);
+			//printf("se deja sin dominio a x1: %d, y1: %d, trip: %d \n", (*variables)[j].origen, (*variables)[j].llegada, (*variables)[j].trip);
 			return False;
 		}
 	}

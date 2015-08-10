@@ -60,3 +60,6 @@ int tiempo_max(int i, int j, int k, variable **variables, datos_problema* instan
 
 //
 int revisar_restricciones(int i, int j, int k, variable **variables, datos_problema* instancia);
+
+//
+int subtours(variable **variables, datos_problema* instancia);

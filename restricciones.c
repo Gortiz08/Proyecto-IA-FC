@@ -497,6 +497,53 @@ int tiempo_max(int i, int j, int k, variable **variables, datos_problema* instan
 }
 
 
+int subtours(variable **variables, datos_problema* instancia){
+	int ph = ((*instancia).puntos+(*instancia).hoteles);
+	int trip = 0, pos = 0, q, k, index, desde = 0;
+	int i, j, t;
+	int izq = 0, der = 0;
+	int count = 0;
+
+	int posicion[(*instancia).puntos-2];
+	for(q = 0; q < (*instancia).puntos; q++){
+		posicion[q] = 0;
+	}
+
+	while(trip < (*instancia).num_trips){
+		for(k = 0; k < ph; k++){
+			index = trans3D_to_1D(desde,k,trip,ph,ph);
+			if((*variables)[index].valor == 1){
+				if(k < (*instancia).hoteles+2){
+					trip += 1;
+				}else{
+					pos += 1;
+					posicion[k-(*instancia).hoteles+2] = pos;				
+				}
+				desde = k;
+				break;
+			}
+		}
+	}
+
+	for(i = 0; i < (*instancia).puntos-2; i++){
+		for(j = 0; j < (*instancia).puntos-2; j++){
+			count = 0;
+			for(t = 0; t < (*instancia).num_trips; t++){
+				count += (*variables)[trans3D_to_1D(i+(*instancia).hoteles+2, j+(*instancia).hoteles+2, t, ph, ph)].valor;
+			}
+			izq = posicion[i] - posicion[j] + (pos * count);
+			der = pos - 1;
+			if(izq > der){
+				return False;
+			}
+		}
+	}
+
+	return True;
+}
+
+
+
 int revisar_restricciones(int i, int j, int k, variable **variables, datos_problema* instancia){
 	int r1 = hotel_ini(i, j, k, variables, instancia);
 	int r2 = hotel_final(i, j, k, variables, instancia);

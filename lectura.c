@@ -31,7 +31,7 @@ void lectura(const char *nombre, datos_problema *instancia){
 	fscanf(archivo, "%lf", &((*instancia).dist_max_tour));
 
 	//Se da memoria para guardar las distancias maximas de cada trip.
-	(*instancia).dist_max_trip = malloc((*instancia).num_trips*sizeof(int));
+	(*instancia).dist_max_trip =(double *) malloc( (*instancia).num_trips * sizeof(double) );
 	//Se guarda la distancia maxima de cada trip.
 	for(i = 0; i < (*instancia).num_trips; i++){
 		fscanf(archivo, "%lf", &((*instancia).dist_max_trip[i]));
@@ -40,17 +40,17 @@ void lectura(const char *nombre, datos_problema *instancia){
 
 	ph = ((*instancia).puntos+(*instancia).hoteles);
 	//Se da memoria a la matriz donde estaran guardadas las distancias.
-	(*instancia).matriz_dist = malloc(ph*ph*sizeof(double));
+	(*instancia).matriz_dist = (double *) malloc((ph*ph) * sizeof(double));
 	//Se asigna memoria a las coordenadas x e y.
 	x = malloc(ph*sizeof(double));
 	y = malloc(ph*sizeof(double));
 	// Se asigna memoria a los puntajes de cada punto y hotel.
-	(*instancia).puntajes = malloc(ph*sizeof(double));
+	(*instancia).puntajes = (double *) malloc(ph*sizeof(double));
 
 	for(i = 0; i < ph; i++){
 		fscanf(archivo, "%lf", &(x[i]));
 		fscanf(archivo, "%lf", &(y[i]));
-		fscanf(archivo, "%f", &((*instancia).puntajes[i]));
+		fscanf(archivo, "%lf", &((*instancia).puntajes[i]));
 	}
 
 	// Calculando distancia//
@@ -61,6 +61,8 @@ void lectura(const char *nombre, datos_problema *instancia){
 			(*instancia).matriz_dist[k] = dist;
 		}
 	}
+	free(x);
+	free(y);
 
 }
 

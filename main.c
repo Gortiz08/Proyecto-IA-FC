@@ -8,15 +8,17 @@ int main(int argc, char **argv){
 
 	datos_problema instancia;
 	lectura(argv[1], &instancia);
-	
+
 	int ph = ((instancia).puntos+(instancia).hoteles);
 
-	variable *variable;
-	variable = malloc(sizeof(variable)*(ph*ph)*instancia.num_trips);
-
-	llenar_dominio(&variable, &instancia);
-
-	fc(0, &variable, &instancia);
+	variable *variables;
+	variables = (variable*) malloc((ph*ph) * instancia.num_trips * sizeof(variable));
 	
+	llenar_dominio(&variables, &instancia);
+
+	fc(0, &variables, &instancia);
+	
+
+	free(variables);
 	return 0;
 }

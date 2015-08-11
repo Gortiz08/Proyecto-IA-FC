@@ -17,7 +17,7 @@ typedef struct{
 	double dist_max_tour;
 	double *dist_max_trip;
 	double *matriz_dist;
-	float *puntajes;
+	double *puntajes;
 }datos_problema;
 
 //Estructura que se utiliza para asignar los valores a las variables del problema//

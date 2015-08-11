@@ -517,13 +517,19 @@ int subtours(variable **variables, datos_problema* instancia){
 					trip += 1;
 				}else{
 					pos += 1;
-					posicion[k-(*instancia).hoteles+2] = pos;				
+		//			printf("%d ",k);
+					posicion[k-((*instancia).hoteles+2)] = pos;				
 				}
 				desde = k;
 				break;
 			}
 		}
 	}
+//	printf("\n");
+
+	// for(i = 0; i < (*instancia).puntos-2; i++){
+	// 	printf("%d: %d ", i+(*instancia).hoteles+2, posicion[i]);
+	// }printf("\n");
 
 	for(i = 0; i < (*instancia).puntos-2; i++){
 		for(j = 0; j < (*instancia).puntos-2; j++){
@@ -531,9 +537,12 @@ int subtours(variable **variables, datos_problema* instancia){
 			for(t = 0; t < (*instancia).num_trips; t++){
 				count += (*variables)[trans3D_to_1D(i+(*instancia).hoteles+2, j+(*instancia).hoteles+2, t, ph, ph)].valor;
 			}
-			izq = posicion[i] - posicion[j] + (pos * count);
-			der = pos - 1;
-			if(izq > der){
+			// izq = posicion[i] - posicion[j] + (pos * count);
+			// der = pos - 1;
+			// if(izq > der){
+			// 	return False;
+			// }
+			if(count == 1 && posicion[i] == 0 && posicion[j] == 0){
 				return False;
 			}
 		}

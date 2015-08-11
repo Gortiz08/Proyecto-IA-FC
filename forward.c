@@ -63,7 +63,8 @@ void fc(int i, variable **variables, datos_problema* instancia){
 				// if(!subtours(variables, instancia)){
 				// 	printf("SUBTOUR \n");
 				// }
-				if(1){//subtours(variables, instancia)){
+				if(subtours(variables, instancia)){
+					//subtours(variables, instancia);
 					printf("H0");
 					while(trip < (*instancia).num_trips){
 						for(k = 0; k < ph; k++){

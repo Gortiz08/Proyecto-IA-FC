@@ -505,7 +505,7 @@ int subtours(variable **variables, datos_problema* instancia){
 	int count = 0;
 
 	int posicion[(*instancia).puntos-2];
-	for(q = 0; q < (*instancia).puntos; q++){
+	for(q = 0; q < (*instancia).puntos-2; q++){
 		posicion[q] = 0;
 	}
 

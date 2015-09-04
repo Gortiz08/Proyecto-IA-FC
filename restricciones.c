@@ -28,7 +28,7 @@ int dim_z(int i, int ph){
 //Tour parte desde un hotel//
 int hotel_ini(int i, int j, int k, variable **variables, datos_problema* instancia){
 	int x1, y1, trip1;
-	int x2, y2, trip2;
+	int x2, trip2;
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
 	int q, sum = 0;
 
@@ -36,7 +36,6 @@ int hotel_ini(int i, int j, int k, variable **variables, datos_problema* instanc
 	x2 = dim_x(j, ph);
 
 	y1 = dim_y(i, ph);
-	y2 = dim_y(j, ph);
 
 	trip1 = dim_z(i, ph);
 	trip2 = dim_z(j, ph);
@@ -44,6 +43,8 @@ int hotel_ini(int i, int j, int k, variable **variables, datos_problema* instanc
 
 	if((x1 == 0 && x1 == x2) && (trip1 == 0 && trip2 == 0)){
 		if((*variables)[i].valor == 1 && k == 1){
+			//if(i == 0 && j == 6512){ printf("R1 i=0 j=6512\n");}
+			//if(i == 407 && j == 6511){ printf("R1 i=407 j=6511\n");}
 			//printf(R1, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
 			return False;
 		}
@@ -57,6 +58,8 @@ int hotel_ini(int i, int j, int k, variable **variables, datos_problema* instanc
 			}
 			else{
 				//printf(R1, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
+				//if(i == 0 && j == 6512){ printf("R1 i=0 j=6512\n");}
+				//if(i == 407 && j == 6511){ printf("R1 i=407 j=6511\n");}
 				return False;
 			}
 		}
@@ -67,12 +70,11 @@ int hotel_ini(int i, int j, int k, variable **variables, datos_problema* instanc
 //Tour termina en un hotel dispobible//
 int hotel_final(int i, int j, int k, variable **variables, datos_problema* instancia){
 	int x1, y1, trip1;
-	int x2, y2, trip2;
+	int y2, trip2;
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
 	int q, sum = 0;
 
 	x1 = dim_x(i, ph); //ultima que instancie
-	x2 = dim_x(j, ph); //alguna de las que no he instanciado
 
 	y1 = dim_y(i, ph); //componente y de la ultima variable instanciada (llegada) 
 	y2 = dim_y(j, ph);
@@ -83,6 +85,8 @@ int hotel_final(int i, int j, int k, variable **variables, datos_problema* insta
 	if(((*instancia).num_trips-1 == trip1) && (trip1 == trip2) && (y1 == y2 && y1 == 1)){
 		if((*variables)[i].valor == 1 && k == 1){
 			//printf(R2, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
+			//if(i == 0 && j == 6512){ printf("R2 i=0 j=6512\n");}
+			//if(i == 407 && j == 6511){ printf("R2 i=407 j=6511\n");}
 			return False;
 		}
 		if((ph - 2) == x1 && k == 0){
@@ -94,6 +98,8 @@ int hotel_final(int i, int j, int k, variable **variables, datos_problema* insta
 			}
 			else{
 				//printf(R2, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
+				//if(i == 0 && j == 6512){ printf("R2 i=0 j=6512\n");}
+				//if(i == 407 && j == 6511){ printf("R2 i=407 j=6511\n");}
 				return False;
 			}
 		}
@@ -104,7 +110,7 @@ int hotel_final(int i, int j, int k, variable **variables, datos_problema* insta
 //Asegurar que el comienzo del trip sea un hotel disponible//
 int hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema* instancia){
 	int x1, y1, trip1;
-	int x2, y2, trip2;
+	int x2, trip2;
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
 	int q, h, sum = 0;
 
@@ -112,7 +118,6 @@ int hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema
 	x2 = dim_x(j, ph);
 
 	y1 = dim_y(i, ph);
-	y2 = dim_y(j, ph);
 
 	trip1 = dim_z(i, ph);
 	trip2 = dim_z(j, ph);
@@ -120,6 +125,8 @@ int hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema
 	if((x1 < (*instancia).hoteles+2 && x2 < (*instancia).hoteles+2) && (trip1 == trip2)){
 		if((*variables)[trans3D_to_1D(x1, y1, trip1, ph, ph)].valor == 1 && k == 1){
 			//printf(R3, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+			//if(i == 0 && j == 6512){ printf("R3 i=0 j=6512\n");}
+			//if(i == 407 && j == 6511){ printf("R3 i=407 j=6511\n");}
 			return False;
 		}
 		if((*instancia).hoteles == x1 && y1 == (ph-1) && k == 0){
@@ -133,6 +140,8 @@ int hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema
 			}
 			else{
 				//printf(R3, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+				//if(i == 0 && j == 6512){ printf("R3 i=0 j=6512\n");}
+				//if(i == 407 && j == 6511){ printf("R3 i=407 j=6511\n");}
 				return False;
 			}
 		}
@@ -143,12 +152,11 @@ int hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema
 //Asegurar que el final del trip sea un hotel disponible//
 int hotel_final_trip(int i, int j, int k, variable **variables, datos_problema* instancia){
 	int x1, y1, trip1;
-	int x2, y2, trip2;
+	int y2, trip2;
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
 	int h, q, sum = 0;
 
 	x1 = dim_x(i, ph);
-	x2 = dim_x(j, ph);
 
 	y1 = dim_y(i, ph);
 	y2 = dim_y(j, ph);
@@ -159,6 +167,8 @@ int hotel_final_trip(int i, int j, int k, variable **variables, datos_problema* 
 	if((y1 < (*instancia).hoteles+2 && y2 < (*instancia).hoteles+2) && (trip1 == trip2)){
 		if((*variables)[i].valor == 1 && k == 1){
 			//printf(R4, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+			//if(i == 0 && j == 6512){ printf("R4 i=0 j=6512\n");}
+			//if(i == 407 && j == 6511){ printf("R4 i=407 j=6511\n");}
 			return False;
 		}
 		if((*instancia).hoteles+1 == y1 && x1 == (ph-2) && k == 0){
@@ -173,6 +183,8 @@ int hotel_final_trip(int i, int j, int k, variable **variables, datos_problema* 
 			}
 			else{
 				//printf(R4, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+				//if(i == 0 && j == 6512){ printf("R4 i=0 j=6512\n");}
+				//if(i == 407 && j == 6511){ printf("R4 i=407 j=6511\n");}
 				return False;
 			}
 		}
@@ -184,16 +196,15 @@ int hotel_final_trip(int i, int j, int k, variable **variables, datos_problema* 
 //Asegurar que si un trip finaliza en un hotel, el siguiente trip comienza en el mismo hotel//
 int hotel_final_hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema* instancia){
 	int x1, y1, trip1;
-	int x2, y2, trip2;
+	int x2, trip2;
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
-	int h, q, sum = 0;
+	int q, sum = 0;
 
 
 	x1 = dim_x(i, ph);
 	x2 = dim_x(j, ph);
 
 	y1 = dim_y(i, ph);
-	y2 = dim_y(j, ph);
 
 	trip1 = dim_z(i, ph);
 	trip2 = dim_z(j, ph);
@@ -204,6 +215,8 @@ int hotel_final_hotel_inicial_trip(int i, int j, int k, variable **variables, da
 		if(sum == 1){
 			if((*variables)[i].valor == 1 && k == 1){
 				//printf(R5, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
+				//if(i == 0 && j == 6512){ printf("R5 i=0 j=6512\n");}
+				//if(i == 407 && j == 6511){ printf("R5 i=407 j=6511\n");}
 				return False;
 			}
 			if(ph-2 == y1){
@@ -213,6 +226,8 @@ int hotel_final_hotel_inicial_trip(int i, int j, int k, variable **variables, da
 				}
 				if(sum == 0 && k == 0){
 					//printf(R5, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
+					//if(i == 0 && j == 6512){ printf("R5 i=0 j=6512\n");}
+					//if(i == 407 && j == 6511){ printf("R5 i=407 j=6511\n");}
 					return False;
 				}
 			}
@@ -220,6 +235,8 @@ int hotel_final_hotel_inicial_trip(int i, int j, int k, variable **variables, da
 		else{
 			if(k == 1){
 				//printf(R5, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, (*variables)[i].valor);
+				//if(i == 0 && j == 6512){ printf("R5 i=0 j=6512\n");}
+				//if(i == 407 && j == 6511){ printf("R5 i=407 j=6511\n");}
 				return False;
 			}
 		}
@@ -233,7 +250,7 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 	int x1, y1, trip1;
 	int x2, y2, trip2;
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
-	int h, q, m, sum = 0;
+	int q;
 
 	int flag_salgo_x = False, flag_llego_x = False, flag_salgo_y = False, flag_llego_y = False;
 	int flag_pertenece;
@@ -297,26 +314,38 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 	//restricciones para cuando j sale (x2)//
 	if(sum_salgo_x == 0 && sum_llega_x == 1 && k == 0 && flag_pertenece == 0 && flag_salgo_x == False){
 		//printf(R6.1 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.1 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.1 i=407 j=6511\n");}
 		return False;
 	}
 	else if(sum_salgo_x == 1 && sum_llega_x == 0 && k == 0 && flag_pertenece == 1 && flag_llego_x == False){
 		//printf(R6.2 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.2 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.2 i=407 j=6511\n");}
 		return False;
 	}
 	else if(sum_salgo_x == 1 && k == 1 & flag_pertenece == 0){
 		//printf(R6.3 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.3 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.3 i=407 j=6511\n");}
 		return False;
 	}
 	else if(sum_llega_x == 1 && k == 1 & flag_pertenece == 1){
 		//printf(R6.4 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.4 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.4 i=407 j=6511\n");}
 		return False;
 	}
 	if(sum_salgo_x == 0 && sum_llega_x == 0 && k == 1 && flag_pertenece == 0 && flag_llego_x == False){
 		//printf(R6.5 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.5 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.5 i=407 j=6511\n");}
 		return False;
 	}
 	if(sum_salgo_x == 0 && sum_llega_x == 0 && k == 1 && flag_pertenece == 1 && flag_salgo_x == False){
 		//printf(R6.6 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.6 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.6 i=407 j=6511\n");}
 		return False;
 	}
 	}
@@ -365,26 +394,38 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 	//restricciones para cuando j llega (y2)//
 	if(sum_salgo_y == 0 && sum_llega_y == 1 && k == 0 && flag_pertenece == 0 && flag_salgo_y == False){
 		//printf(R6.7 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.7 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.7 i=407 j=6511\n");}
 		return False;
 	}
 	else if(sum_salgo_y == 1 && sum_llega_y == 0 && k == 0 && flag_pertenece == 1 && flag_llego_y == False){
 		//printf(R6.8 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.8 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.8 i=407 j=6511\n");}
 		return False;
 	}
 	else if(sum_salgo_y == 1 && k == 1 & flag_pertenece == 0){
 		//printf(R6.9 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.9 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.9 i=407 j=6511\n");}
 		return False;
 	}
 	else if(sum_llega_y == 1 && k == 1 & flag_pertenece == 1){
 		//printf(R6.10 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.10 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.10 i=407 j=6511\n");}
 		return False;
 	}
 	if(sum_salgo_y == 0 && sum_llega_y == 0 && k == 1 && flag_pertenece == 0 && flag_llego_y == False){
 		//printf(R6.11 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.11 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.11 i=407 j=6511\n");}
 		return False;
 	}
 	if(sum_salgo_y == 0 && sum_llega_y == 0 && k == 1 && flag_pertenece == 1 && flag_salgo_y == False){
 		//printf(R6.12 sum = 0 y K = 0, x1: %d, y1: %d, trip: %d ValorProblem: %d\n", x2, y2, trip1, k);
+		//if(i == 0 && j == 6512){ printf("R6.12 i=0 j=6512\n");}
+		//if(i == 407 && j == 6511){ printf("R6.12 i=407 j=6511\n");}
 		return False;
 	}
 	}
@@ -432,23 +473,20 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 
 //Asegura que cada vertice sea visitado a lo mas una vez (unicidad de los vertices)//
 int unicidad(int i, int j, int k, variable **variables, datos_problema* instancia){
-	int x1, y1, trip1;
-	int x2, y2, trip2;
+	int x1;
+	int x2;
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
 
 
 	x1 = dim_x(i, ph);
 	x2 = dim_x(j, ph);
 
-	y1 = dim_y(i, ph);
-	y2 = dim_y(j, ph);
-
-	trip1 = dim_z(i, ph);
-	trip2 = dim_z(j, ph);
 
 	if(x2 == x1 && x1 > (*instancia).hoteles+1){
 		if((*variables)[i].valor == 1 && k == 1){
 			//printf(R7, x1: %d, y1: %d, trip: %d, x2: %d, y2: %d, trip: %d, ValorProblem: %d\n", x1, y1, trip1, x2, y2, trip2, (*variables)[i].valor);
+			//if(i == 0 && j == 6512){ printf("R7 i=0 j=6512\n");}
+			//if(i == 407 && j == 6511){ printf("R7 i=407 j=6511\n");}
 			return False;
 		}
 	}
@@ -457,18 +495,14 @@ int unicidad(int i, int j, int k, variable **variables, datos_problema* instanci
 
 //Se limita el tiempo de cada trip//
 int tiempo_max(int i, int j, int k, variable **variables, datos_problema* instancia){
-	int x1, y1, trip1;
+	int trip1;
 	int x2, y2, trip2;
 	int trips, xs, ys;
 	int w, index;
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
 	double dist_rec = 0;
 
-
-	x1 = dim_x(i, ph);
 	x2 = dim_x(j, ph);
-
-	y1 = dim_y(i, ph);
 	y2 = dim_y(j, ph);
 
 	trip1 = dim_z(i, ph);
@@ -490,6 +524,8 @@ int tiempo_max(int i, int j, int k, variable **variables, datos_problema* instan
 		dist_rec += (*instancia).matriz_dist[w];
 		if(dist_rec > (*instancia).dist_max_trip[trip1]){
 			//printf(R8, x1: %d, y1: %d, trip: %d ValorProblem: %d distancia rec: %f \n", x2, y2, trip2, (*variables)[i].valor, dist_rec);
+			//if(i == 0 && j == 6512){ printf("R8 i=0 j=6512\n");}
+			//if(i == 407 && j == 6511){ printf("R8 i=407 j=6511\n");}
 			return False;
 		}
 	}
@@ -501,7 +537,6 @@ int subtours(variable **variables, datos_problema* instancia){
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
 	int trip = 0, pos = 0, q, k, index, desde = 0;
 	int i, j, t;
-	int izq = 0, der = 0;
 	int count = 0;
 
 	int posicion[(*instancia).puntos-2];

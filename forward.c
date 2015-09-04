@@ -42,9 +42,7 @@ void fc(int i, variable **variables, datos_problema* instancia){
 	int ph = ((*instancia).puntos+(*instancia).hoteles);
 	int var = ph*ph*(*instancia).num_trips;
 
-	int h,j,k, index;
-
-	int x1, y1, z1;
+	int k, index;
 
 	int desde = 0, trip = 0, punt = 0, lugar = 0;
 	double dist_trip[(*instancia).num_trips];
@@ -56,7 +54,7 @@ void fc(int i, variable **variables, datos_problema* instancia){
 
 	for(l = 0; l<2; l++){
 		(*variables)[i].valor = l;
-		//printf("origen: %d, destino: %d, Trip: %d  Valor: %d dominio: %d \n", (*variables)[i].origen, (*variables)[i].llegada, (*variables)[i].trip, (*variables)[i].valor, (*variables)[i].dominio[l]);
+		printf("Variable => origen: %d, destino: %d, Trip: %d  Valor: %d dominio: %d %d \n", (*variables)[i].origen, (*variables)[i].llegada, (*variables)[i].trip, (*variables)[i].valor, (*variables)[i].dominio[0], (*variables)[i].dominio[1]);
 		if((*variables)[i].dominio[l] == NO_PROBLEM){
 			if(i == var-1){
 				//guardar solucion
@@ -91,18 +89,18 @@ void fc(int i, variable **variables, datos_problema* instancia){
 					printf("\n");
 				}
 
-				// for(k = 0; k < (*instancia).num_trips; k++){
-				// 	for(h = 0; h < ph; h++){
-				// 		for(j = 0; j < ph ; j++){
-				// 			index = trans3D_to_1D(h,j,k,ph,ph);
-				// 			if((*variables)[index].valor == 1){
-				// 				printf(" I:%d   >>T:%d>>   F:%d", (*variables)[index].origen, (*variables)[index].trip , (*variables)[index].llegada);
-				// 			}
-				// 		}
-				// 	}
-				// }
-				// printf("\n");
-
+			/*	for(k = 0; k < (*instancia).num_trips; k++){
+					for(h = 0; h < ph; h++){
+						for(j = 0; j < ph ; j++){
+							index = trans3D_to_1D(h,j,k,ph,ph);
+							if((*variables)[index].valor == 1){
+								printf(" I:%d   >>T:%d>>   F:%d", (*variables)[index].origen, (*variables)[index].trip , (*variables)[index].llegada);
+							}
+						}
+					}
+				}
+				printf("\n");
+				} */
 			}
 			else{	
 				if(Forward_Checking(i, var, variables, instancia)){

@@ -24,6 +24,8 @@ int Forward_Checking(int i, int var, variable **variables, datos_problema* insta
 void restablecer_dom(int i, int var, variable **variables);
 
 
+//
+int trans3D_to_1D(int i, int j, int k,int l,int m);
 
 //
 int dim_x(int i, int ph);

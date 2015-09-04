@@ -4,7 +4,6 @@
 #include "funciones.h"
 
 int main(int argc, char **argv){
-	int i;
 
 	datos_problema instancia;
 	lectura(argv[1], &instancia);

@@ -1,0 +1,41 @@
+Orienteering Problem with Hotel Selection
+Inteligencia Artificial - Septiembre/2015
+Germán Ortiz - 201173033-k
+
+
+Manual de uso
+
+El proyecto completo está en la carpeta "Proyecto-IA-FC", dentro se encuentra una carpeta que se llama
+"Casos prueba", que es donde estan todas las instancias que se probaron en la ejecución del proyecto, también 
+hay una carpeta llamada "Logs", que es donde se encuentran todos los logs de las instancias previamente ejecutadas
+para efectos de experimentación, además se encuentran los archivos .c, .h y Makefile, que sirven para la 
+correcta ejecución del programa Forward Checking.
+
+Ejecutando Forward Checking
+
+Primera opción:
+Para ejecutarlo se necesitan los siguientes pasos:
+1- Para compilar se hace "make"
+2- Para correrlo se hace "make test(número de test que quiere ejecutar)"
+3- En caso de querer volver compilar, se debe limpiar con "make clean"
+
+De este modo, la ejecución sería la siguiente, como por ejemplo, para la instancia: 10-24-1-2.ophs. 
+Se necesita hacer "make && make test10".
+
+Segunda opción:
+Para ejecutar el programa creando un log:
+1- Para compilar se hace "make"
+2- Para correrlo se hace "make test(número de test que quiere ejecutar) > nombre archivo.log"
+3- En caso de querer volver compilar, se debe limpiar con "make clean"
+
+De este modo, la ejecución sería la siguiente, como por ejemplo, para la instancia: 10-24-1-2.ophs.
+Se necesita hacer "make && make test10 > test10-24-1-2.log"
+
+Tercera opción:
+Para ejecutarlo directo del archivo binario:
+1- Para compilar se hace "make"
+2- Para correrlo se hace "./ophs Casos\ prueba/(instancia a probar).ophs"
+3- En caso de querer volver compilar, se debe limpiar con "make clean"
+
+De este modo, la ejecución sería la siguiente, como por ejemplo, para la instancia: 10-24-1-2.ophs.
+Se necesita hacer "make && ./ophs Casos\ prueba/10-24-1-2.ophs"

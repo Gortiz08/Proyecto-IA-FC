@@ -25,7 +25,7 @@ test04: ophs
 test05: ophs
 	time ./ophs Casos\ prueba/5-15-1-2.ophs
 
-test: ophs 
+test10: ophs 
 	time ./ophs Casos\ prueba/10-24-1-2.ophs
 
 test11: ophs

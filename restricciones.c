@@ -42,15 +42,16 @@ int hotel_ini(int i, int j, int k, variable **variables, datos_problema* instanc
 	trip2 = dim_z(j, ph);
 
 
-	//Si i es el hotel inicial y j quiere ser el hotel inicial, ambos en el trip 0//
-	//se retorna Falso//
+	//Si la variable i-esima parte en un hotel inicial y la variable j-esima quiere //
+	//.. partir en el hotel inicial, ambos en el trip 0, se retorna Falso//
 	if((x1 == 0 && x1 == x2) && (trip1 == 0 && trip2 == 0)){
 		if((*variables)[i].valor == 1 && k == 1){
 			return False;
 		}
 		//Si se esta en la penultima posicion de las variables que pueden ser hoteles iniciales..// 
 		//..se suman todas las variables anteriores. Si la suma no es 1 se retorna Falso//
-		//Falso porque quiere decir que no existe hotel inicial//
+		//Falso porque quiere decir que no existe hotel inicial// 
+		//Asi se obliga a que tome el ultimo camino que comienza con el hotel inicial//
 		if((ph - 2) == y1 && k == 0){
 			for(q = 0; q < ph; q++){
 				sum += (*variables)[trans3D_to_1D(x1, q, trip1, ph, ph)].valor;
@@ -82,13 +83,15 @@ int hotel_final(int i, int j, int k, variable **variables, datos_problema* insta
 	trip1 = dim_z(i, ph);
 	trip2 = dim_z(j, ph);
 
-	//Si se esta en el trip final, i y j pertenecen al trip final y la componente "y" de i y j es un hotel final//
+	//Si se esta en el trip final, la variable i y j pertenecen al trip final y la componente "y" de i y j es un hotel final//
 	if(((*instancia).num_trips-1 == trip1) && (trip1 == trip2) && (y1 == y2 && y1 == 1)){
-		//Si la variable i ya es el hotel final y j quiere ser un hotel final, se retorna Falso//
+		//Si el recorrido de la variable i termina en el hotel final y la variable j-esima quiere terminar en el hotel final//
+		// se retorna Falso//
 		if((*variables)[i].valor == 1 && k == 1){
 			return False;
 		}
-		//Si se esta en la penultima variable de las que pueden ser hoteles finales (i) y el valor del dominio de j es 0//
+		//Si se esta en la penultima variable de las que pueden ser hoteles finales (variable i-esima) y //
+		//el valor del dominio de la variable j-esima es 0//
 		//Se suman todas las variables hacia atras, si la suma no es 1, se retorna Falso//
 		//Falso porque quiere decir que no existe un hotel final en el Tour//
 		if((ph - 2) == x1 && k == 0){
@@ -122,14 +125,16 @@ int hotel_inicial_trip(int i, int j, int k, variable **variables, datos_problema
 	trip1 = dim_z(i, ph);
 	trip2 = dim_z(j, ph);
 
-	//Si la variable i y j pertenece a alguno de los hoteles y ambas variables estan en el mismo trip//
+	//Si el comienzo de la variable i-esima y j-esima pertenece a alguno de los hoteles y //
+	// ambas variables estan en el mismo trip//
 	if((x1 < (*instancia).hoteles+2 && x2 < (*instancia).hoteles+2) && (trip1 == trip2)){
-		//Si i ya es un hotel y j quiere ser un hotel, se retorna Falso//
+		//Si la variable i-esima ya comienza en un hotel y la variable j-esima tambien quiere //
+		//comenzar en un hotel, se retorna Falso//
 		if((*variables)[trans3D_to_1D(x1, y1, trip1, ph, ph)].valor == 1 && k == 1){
 			return False;
 		}
-		//Si se esta en la ultima variable de los que pueden ser hoteles y el valor del dominio de j es 0//
-		//Se suman todos valores de los hoteles, si la suma no es 1 se retorna Falso//
+		//Si se esta en la ultima variable de los que pueden ser hoteles y el valor del dominio de //
+		// la variable j-esima es 0. Se suman todos valores de los hoteles, si la suma no es 1 se retorna Falso//
 		//Se retorna Falso porque quiere decir que no existe un hotel ya instanciado en el trip//
 		if((*instancia).hoteles == x1 && y1 == (ph-1) && k == 0){
 			for(q = 0; q < (*instancia).hoteles+2; q++){
@@ -205,13 +210,13 @@ int hotel_final_hotel_inicial_trip(int i, int j, int k, variable **variables, da
 	trip1 = dim_z(i, ph);
 	trip2 = dim_z(j, ph);
 
-	//Si i y j son hoteles y estan en el mismo trip (que no es el primero)//
+	//Si las variables i y j parten en hoteles y estan en el mismo trip (que no es el primero)//
 	//Se procede a sumar todas las variables que ya fueron instanciadas (como hoteles de llegada)//
 	if((x2 < (*instancia).hoteles+2) && x1 == x2 && trip1 == trip2 && trip1 > 0){
 		for(q = 0; q < ph; q++){
 			sum += (*variables)[trans3D_to_1D(q, x1, trip1-1, ph, ph)].valor;
 		}
-		//Si la suma es 1 y "j" quiere ser un hotel, se retorna Falso//
+		//Si la suma es 1 y la variable j-esima quiere tomar un hotel, se retorna Falso//
 		if(sum == 1){
 			if((*variables)[i].valor == 1 && k == 1){
 				return False;
@@ -222,15 +227,16 @@ int hotel_final_hotel_inicial_trip(int i, int j, int k, variable **variables, da
 				for(q = 0; q < ph; q++){
 					sum += (*variables)[trans3D_to_1D(x1, q, trip1, ph, ph)].valor;
 				}
-				//Si la suma del valor de las variables es 0 y j no quiere ser un hotel, se retorna Falso//
-				//Falso porque al no haber hotel previamente instanciado, j deberia ser un hotel//
+				//Si la suma del valor de las variables es 0 y la variable j-esima no quiere //
+				// tomar un hotel, se retorna Falso//
+				//Falso porque al no haber hotel previamente instanciado, la variable j-esima deberia tomar un hotel//
 				if(sum == 0 && k == 0){
 					return False;
 				}
 			}
 		}
 		else{
-			//Si la suma es 0 y j quiere ser un hotel, se retorna Falso//
+			//Si la suma es 0 y la variable j-esima quiere tomar un hotel, se retorna Falso//
 			//Falso porque al ser la suma 0, quiere decir que no existe hotel de llegada, por ende..//
 			//..no puede haber hotel de salida//
 			if(k == 1){
@@ -268,15 +274,15 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 	trip2 = dim_z(j, ph);
 
 
-	//Si j es un POI, obtengo obtengo todas las variables que empiecen con la misma coordenada x que j//
+	//Si la variable j-esima parte en un POI, obtengo todas las variables que empiecen con la misma coordenada x que j//
 	if(x2 > (*instancia).hoteles+1){
 		for(q = 0; q < ph; q++){
 			pos = trans3D_to_1D(x2, q, trip2, ph, ph);
 			if(pos == j){
-				//Si la flag es 0, quiere decir que la variable j esta "saliendo"//
+				//Si la flag es 0, quiere decir que la variable j-esima esta "saliendo"//
 				flag_pertenece = 0;
 			}
-			//Si las variables obtenidas anteriormente son menores o iguales a la variable i//
+			//Si las variables obtenidas anteriormente son menores o iguales a la variable i-esima//
 			//sumo todos los que salen desde el x2 que han sido instanciados//
 			if(pos <= i){
 				sum_salgo_x += (*variables)[pos].valor;
@@ -294,10 +300,10 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 		for(q = 0; q < ph; q++){
 			pos = trans3D_to_1D(q, x2, trip2, ph, ph);
 			if(pos == j){
-				//Si la flag es 1, quiere decir que la variable j esta "llegando"//
+				//Si la flag es 1, quiere decir que la variable j-esima esta "llegando"//
 				flag_pertenece = 1;
 			}
-			//Si las variables obtenidas anteriormente son menores o iguales a la variable i//
+			//Si las variables obtenidas anteriormente son menores o iguales a la variable i-esima//
 			//sumo todos los que llegan al x2 que han sido instanciados//
 			if(pos <= i){
 				sum_llega_x += (*variables)[pos].valor;
@@ -334,15 +340,15 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 		}
 	}
 
-	//Si j es un POI, obtengo obtengo todas las variables que terminen con la misma coordenada y que j//
+	//Si la variable j-esima es un POI, obtengo obtengo todas las variables que terminen con la misma coordenada y que j//
 	if(y2 > (*instancia).hoteles+1){
 		for(q = 0; q < ph; q++){
 			pos = trans3D_to_1D(q, y2, trip2, ph, ph);
 			if(pos == j){
-				//Si la flag es 0, quiere decir que la variable j esta "llegando"//
+				//Si la flag es 0, quiere decir que la variable j-esima esta "llegando"//
 				flag_pertenece = 0;
 			}
-			//Si las variables obtenidas anteriormente son menores o iguales a la variable i//
+			//Si las variables obtenidas anteriormente son menores o iguales a la variable i-esima//
 			//sumo todos los que llegan al y2 que han sido instanciados//
 			if(pos <= i){
 				sum_salgo_y += (*variables)[pos].valor;
@@ -359,10 +365,10 @@ int conectividad(int i, int j, int k, variable **variables, datos_problema* inst
 		for(q = 0; q < ph; q++){
 			pos = trans3D_to_1D(y2, q, trip2, ph, ph);
 			if(pos == j){
-				//Si la flag es 1, quiere decir que la variable j esta "saliendo"//
+				//Si la flag es 1, quiere decir que la variable j-esima esta "saliendo"//
 				flag_pertenece = 1;
 			}
-			//Si las variables obtenidas anteriormente son menores o iguales a la variable i//
+			//Si las variables obtenidas anteriormente son menores o iguales a la variable i-esima//
 			//sumo todos los que salen del y2 que han sido instanciados//
 			if(pos <= i){
 				sum_llega_y += (*variables)[pos].valor;
@@ -413,9 +419,9 @@ int unicidad(int i, int j, int k, variable **variables, datos_problema* instanci
 	x1 = dim_x(i, ph);
 	x2 = dim_x(j, ph);
 
-	//Si la coordenada x de i y j son la misma, e i no es un hotel//
+	//Si la coordenada x de la variable i-esima y j-esima es la misma, y la variable i-esima no comienza en un hotel//
 	if(x2 == x1 && x1 > (*instancia).hoteles+1){
-		//Si el valor de la variable i es 1 y j quiere tomar el mismo valor, retorna Falso//
+		//Si el valor de la variable i-esima es 1 y la variable j-esima quiere tomar el mismo valor, retorna Falso//
 		//Falso porque ya existe un vertice visitado, en este caso, x1//
 		if((*variables)[i].valor == 1 && k == 1){
 			return False;
@@ -440,8 +446,9 @@ int tiempo_max(int i, int j, int k, variable **variables, datos_problema* instan
 	trip1 = dim_z(i, ph);
 	trip2 = dim_z(j, ph);
 
-	//Si i y j estan en el mismo trip, y el valor de j quiere ser 1//
-	//Se suman todas las distancias de las variables i que tienen valor 1//
+	//Si la variable i-esima y la variable j-esima estan en el mismo trip, y el valor de //
+	// la variable j-esima quiere tomar 1//
+	//Se suman todas las distancias de las variables i-esimas que tienen valor 1//
 	if(trip1 == trip2 && k == 1){
 		for(index = 0; index <= i; index++){
 			trips = dim_z(index,ph);
@@ -456,7 +463,7 @@ int tiempo_max(int i, int j, int k, variable **variables, datos_problema* instan
 		}
 		w = obtener_indice(x2, y2, ph);
 		dist_rec += (*instancia).matriz_dist[w];
-		//Si la distancia recorrida (incluyendo la variable j), es mayor a la distancia maxima del trip, retorna Falso//
+		//Si la distancia recorrida (incluyendo la variable j-esima), es mayor a la distancia maxima del trip, retorna Falso//
 		if(dist_rec > (*instancia).dist_max_trip[trip1]){
 			return False;
 		}
@@ -477,13 +484,11 @@ int subtours(variable **variables, datos_problema* instancia){
 		posicion[q] = 0;
 	}
 
-	//Se itera en todos los trips dentro del tour//
+	//Se enumeran los POIs a medida van apareciendo en la solucion (no se toman en cuenta los que estan en el subtour)//
 	while(trip < (*instancia).num_trips){
 		for(k = 0; k < ph; k++){
 			index = trans3D_to_1D(desde,k,trip,ph,ph);
-			//Se extraen todas las variables instanciadas en el tour (candidatas a solucion)//
 			if((*variables)[index].valor == 1){
-				//Mientras k sea menor que el numero de hoteles, se suma un trip//
 				if(k < (*instancia).hoteles+2){
 					trip += 1;
 				}else{
@@ -496,14 +501,16 @@ int subtours(variable **variables, datos_problema* instancia){
 		}
 	}
 
-
+	//Se itera en todas las combinaciones de caminos (solo los POIs)//
 	for(i = 0; i < (*instancia).puntos-2; i++){
 		for(j = 0; j < (*instancia).puntos-2; j++){
 			count = 0;
 			for(t = 0; t < (*instancia).num_trips; t++){
+				//Se revisa si se toma el camino//
 				count += (*variables)[trans3D_to_1D(i+(*instancia).hoteles+2, j+(*instancia).hoteles+2, t, ph, ph)].valor;
 			}
-
+			//Si se toma el camino, y las posiciones de los POIs son 0, quiere decir que no esta en la solucion//
+			//Por lo tanto es un subtour y se retorna Falso//
 			if(count == 1 && posicion[i] == 0 && posicion[j] == 0){
 				return False;
 			}

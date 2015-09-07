@@ -15,7 +15,7 @@ void lectura(const char *nombre, datos_problema *instancia);
 void llenar_dominio(variable **variables, datos_problema* instancia);
 
 //Funcion recursiva que se encarga de hacer el backtrack// 
-void fc(int i, variable **variables, datos_problema* instancia);
+void fc(int i, int *mejor_punt, int **mejor_result, variable **variables, datos_problema* instancia);
 
 //Se revisa que se cumplan las restricciones del problema//
 int Forward_Checking(int i, int var, variable **variables, datos_problema* instancia);
